@@ -13,6 +13,7 @@ const Category = () => {
                 <Link to="/profile">Trending Movies</Link>
                 <Link to="/profile">High Rating</Link>
             </div>
+            <span>Select category</span>
             <div className='buttonhome'> <Link to="/">Back to Home</Link></div>
         </div>
     );

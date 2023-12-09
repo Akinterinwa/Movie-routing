@@ -40,6 +40,7 @@ const handleFilterChange = (field, value) => {
   return (
         <div className='HomePage'>
             <h1 className='title'>MOVIEFINDER</h1>
+            <span>Select Movie</span>
             <Filter onFilterChange={handleFilterChange} />
             <MovieList movies={filteredMovies} />
             <MovieForm />
