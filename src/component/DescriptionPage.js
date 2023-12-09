@@ -25,7 +25,7 @@ const MovieDescription = () => {
                     src={movie.trailerLink}
                     allowFullScreen
                 ></iframe>
-                <Link className="link" to="/">Back to Home</Link>
+                <Link className="link" to="/profile">Back to Home</Link>
             </div>
         </div>
     );

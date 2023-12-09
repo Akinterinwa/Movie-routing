@@ -44,7 +44,7 @@ export const movies = [
         trailerLink: 'https://www.youtube.com/embed/qRYDNWXuip8',
         title: 'INGLORIOUS BASTERDS',
         description: 'Inglourious Basterds is a Quentin Tarantino movie set in WWII, featuring a vengeful Jewish-American squad and a plot to assassinate Nazi leaders. Intense, violent, and darkly humorous.',
-        posterURL: 'https://www.yourprops.com/movieprops/original/yp_5fa11cfc860798.55421918/Inglorious-Basterds-Premiere-Lobby-Cards-3.jpg',
+        posterURL: 'https://kawaiibear.files.wordpress.com/2010/02/inglourious-basterds-3.jpg?w=584',
         rating: 8.1,
     },
     {
