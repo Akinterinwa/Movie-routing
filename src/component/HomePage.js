@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-// import {Routes, Route, Link} from 'react-router-dom';
 import '../App.css';
 import { movies } from '../data/movies'
 import MovieList from '../component/MovieList';
 import Filter from '../component/Filter';
 import MovieForm from '../component/MovieForm';
+import { Link } from 'react-router-dom';
 
 
 
@@ -38,11 +38,12 @@ const handleFilterChange = (field, value) => {
   };
 
   return (
-        <div>
-            <h1 className='title'>My Favorite Movies</h1>
+        <div className='HomePage'>
+            <h1 className='title'>MOVIEFINDER</h1>
             <Filter onFilterChange={handleFilterChange} />
             <MovieList movies={filteredMovies} />
             <MovieForm />
+            <div className='buttonhome'> <Link to="/">Back to Home</Link></div>
 
         </div>
   )
