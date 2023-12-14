@@ -5,7 +5,7 @@ import { movies } from "../data/movies";
 const MovieDescription = () => {
     const params = useParams();
     const movie = movies.find((movie) => movie.id === params.id);
-    
+
 
     console.log('Para', params)
     console.log('Para', movie)
@@ -26,6 +26,7 @@ const MovieDescription = () => {
                     height="315"
                     src={movie.trailerLink}
                     allowFullScreen
+                    autoPlay
                 ></iframe>
                 <Link className="link" to="/">Back to Home</Link>
             </div>
