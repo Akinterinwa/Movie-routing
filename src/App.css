@@ -1,35 +1,39 @@
-body{
+body {
   background-color: #0d1117;
-  /* color:white; */
+  color: white;
 }
-a{
-  text-decoration:none;
+
+a {
+  text-decoration: none;
 }
-h2,p {
+
+h2,
+p {
   margin: 0;
 }
-.App{
+
+.App {
   text-align: center;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
-.title{
+.title {
   font-size: 45px;
   font-family: 'Times New Roman', Times, serif;
   color: white;
 }
 
-.movie-list{
+.movie-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.movie-card{
+.movie-card {
   max-width: 300px;
   padding: 20px;
   margin: 20px;
@@ -43,7 +47,7 @@ img{
   box-shadow: 10px 10px 10px rgba(191, 186, 186, 0.3);
 }
 
-.desc{
+.desc {
   font-size: 17px;
   font-style: italic;
   /* font-weight: 500; */
@@ -52,7 +56,7 @@ img{
   text-decoration: none;
 }
 
-.rating{
+.rating {
   font-family: sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -60,12 +64,12 @@ img{
   /* color: rgb(248, 15, 61); */
 }
 
-.filter{
+.filter {
   margin: 20px;
   padding-bottom: 10px;
 }
 
-input{
+input {
   background-color: #dfedf5;
   padding: 5px;
   margin-right: 10px;
@@ -74,7 +78,7 @@ input{
   /* border: 2px solid #1b1b1b; */
 }
 
-button{
+button {
   padding: 5px 15px;
   font-size: 15px;
   font-family: serif;
@@ -88,28 +92,31 @@ button{
   border-radius: 3px;
   box-shadow: 0 4px #bcb7b7;
 }
-button:hover{
+
+button:hover {
   background-color: #1f7c22
 }
-button:active{
+
+button:active {
   background-color: #27872c;
   /* box-shadow: 0 2px #3d3c3c; */
   transform: translateY(2px);
 }
 
-.add{
+.add {
   /* color: rgb(62, 16, 245); */
   font-family: serif;
 }
 
-.form{
+.form {
   padding-bottom: 60px;
 }
-.type{
+
+.type {
   /* color: crimson; */
 }
 
-.movie-details{
+.movie-details {
   background-color: #b8caf2;
   padding: 10px;
   border-radius: 5px;
@@ -117,17 +124,18 @@ button:active{
   margin-top: 20px;
 }
 
-.movie-details h2{
+.movie-details h2 {
   /* color: #c41818; */
   font-size: 2.5rem;
   margin-bottom: 5px;
 }
 
-.movie-details p{
+.movie-details p {
   color: #666;
   font-size: 1rem;
 }
-iframe{
+
+iframe {
   border-radius: 7px;
 }
 
@@ -155,7 +163,7 @@ iframe{
   margin-bottom: 10px;
 }
 
-.desc-page{
+.desc-page {
   /* color: #3803b4; */
   margin-bottom: 20px;
 }
@@ -168,7 +176,7 @@ iframe{
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.link{
+.link {
   display: block;
   text-align: center;
   text-decoration: none;
@@ -178,7 +186,7 @@ iframe{
   margin-top: 20px;
 }
 
-.not-found{
+.not-found {
   font-size: 50px;
   text-decoration: none;
   color: #ffffffab;
