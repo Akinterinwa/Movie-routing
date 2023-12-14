@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Filter = ({ onFilterChange }) => {
+  
   return (
     <div className="filter">
       <input
